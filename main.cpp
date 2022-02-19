@@ -1,12 +1,14 @@
 //
-// Created by colin on 2/7/2022.
+// Created by colin on 2/16/2022.
 //
 
 /*
  *
- * Preparation for waterloo ccc
+ * Waterloo ccc contest code
+ * By Colin McCormack
  *
- * Practice using cpp for competition
+ * This file is simply for pasting each questions code and then running
+ * (to avoid time-consuming use of header files)
  *
  */
 
@@ -14,12 +16,6 @@
 
 using namespace std;
 
-// Match type for vector since it is not an array
-void print (vector<int> a, int n) {
-    for (int i = 0; i < n; ++i) {
-        cout << a[i] << " ";
-    }
-}
 
 int main() {
 
@@ -28,15 +24,9 @@ int main() {
     // Optimization to prevent buffer flushing automatically
     cin.tie(nullptr);
 
-    vector<int> arr(6);
-
-    arr = {9,3,4,6,7,9};
-
-    cout << arr.size() << "\n";
-
-    int n = 6;
-
-    print (arr, n);
+    int x;
+    cin >> x;
+    cout << x;
 
     return 0;
 
